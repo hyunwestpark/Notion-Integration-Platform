@@ -1,5 +1,9 @@
 import React from "react";
 
 export const Container = ({ children }) => {
-  return <div className="mx-72 space-y-4 my-10">{children}</div>;
+  return (
+    <div className="flex items-center justify-center sm:mx-[100px] md:mx-[300px] lg:mx-[600px] min-h-screen">
+      {children}
+    </div>
+  );
 };
