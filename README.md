@@ -21,6 +21,6 @@
 ### 1. 클론 리포지토리
 
 ```bash
-git clone https://github.com/yourusername/notion-workout-planner.git
-cd notion-workout-planner
+git clone https://github.com/hyunwestpark/notion-integration-platform.git
+cd notion-integration-platform
 ```
