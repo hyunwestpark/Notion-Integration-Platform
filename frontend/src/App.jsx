@@ -1,5 +1,6 @@
 import Button from "./components/Button";
 import { Container } from "./components/Container";
+import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 import Select from "./components/Select";
 import axios from "axios";
@@ -63,7 +64,7 @@ function App() {
 
   return (
     <Container>
-      <div className="w-full min-w-80">
+      <div className="w-[500px] min-w-[400px]">
         <h1 className="text-3xl mb-4"> 노션 운동 계획 생성 자동화 💪</h1>
         <p className=" text-gray-600 mb-1">
           Ollama AI가 최적의 운동 계획을 제공합니다!
@@ -120,6 +121,7 @@ function App() {
             {loading ? `운동 계획 생성 중...` : "운동 계획 생성"}
           </span>
         </Button>
+        <Footer></Footer>
         <Modal
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
