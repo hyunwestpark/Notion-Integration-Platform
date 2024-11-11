@@ -29,46 +29,46 @@ cd notion-integration-platform
 
 ### 2. 프로젝트 디렉토리로 이동:
 
-    ```bash
-    cd notion-integration-platform
-    ```
+```bash
+cd notion-integration-platform
+```
 
 ### 3. 프론트엔드 종속성 설치:
 
-    ```bash
-    cd frontend
-    npm install
-    ```
+```bash
+cd frontend
+npm install
+```
 
 ### 4. 백엔드 종속성 설치:
 
-    ```bash
-    cd ../backend
-    npm install
-    ```
+```bash
+cd ../backend
+npm install
+```
 
 ### 5. 환경 변수 설정:
 
-    - `backend` 폴더 안에 `.env` 파일을 생성하고 다음 내용을 추가하세요:
-      ```
-      NOTION_API_KEY=your_notion_api_key_here
-      PAGE_ID=your_page_or_database_id_here
-      OPENAI_API_KEY=your_openai_api_key_here
-      ```
+- `backend` 폴더 안에 `.env` 파일을 생성하고 다음 내용을 추가하세요:
+
+```
+NOTION_API_KEY=your_notion_api_key_here
+PAGE_ID=your_page_or_database_id_here
+```
 
 ### 6. 백엔드 서버 실행:
 
-    ```bash
-    cd backend
-    node server.js
-    ```
+```bash
+cd backend
+node server.js
+```
 
 ### 7. 프론트엔드 서버 실행:
 
-    ```bash
-    cd ../frontend
-    npm run dev
-    ```
+```bash
+cd ../frontend
+npm run dev
+```
 
 ## 🏃 실행 방법
 
